@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <meta name="description" content="Frontend Mentor, News homepage" />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <img src="./assets/images/logo.svg" alt="News" />
+          </div>
+          <div class="menu-overlay"></div>
+          <div class="menu">
+            <button type="button" class="close-button">
+              <img src="./assets/images/icon-menu-close.svg" alt="Close menu" />
+            </button>
+            <ul class="menu-list">
+              <li class="menu-list-item"><a href="#">Home</a></li>
+              <li class="menu-list-item"><a href="#">News</a></li>
+              <li class="menu-list-item"><a href="#">Popular</a></li>
+              <li class="menu-list-item"><a href="#">Trending</a></li>
+              <li class="menu-list-item"><a href="#">Categories</a></li>
+            </ul>
+          </div>
+          <button type="button" class="open-button">
+            <img src="./assets/images/icon-menu.svg" alt="Open menu" />
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container main-container">
+        <picture>
+          <source media="(min-width:50rem)" srcset="./assets/images/image-web-3-desktop.jpg" />
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="" />
+        </picture>
+        <h1 class="title">The Bright Future of Web 3.0?</h1>
+        <div class="description">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms
+            back into the hands of the people. But is it really fulfilling its promise?
+          </p>
+          <a href="#" class="btn">Read more</a>
+        </div>
+        <aside class="aside">
+          <h2>New</h2>
+          <div>
+            <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <div>
+            <h3><a href="#">Downsides of AI Artistry</a></h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div>
+            <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </aside>
+        <article class="article" id="article1">
+          <div class="article-image">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="" />
+          </div>
+          <div class="article-content">
+            <p class="article-number">01</p>
+            <h3><a href="#">Reviving Retro PCs</a></h3>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article class="article" id="article2">
+          <div class="article-image">
+            <img src="./assets/images/image-top-laptops.jpg" alt="" />
+          </div>
+          <div class="article-content">
+            <p class="article-number">02</p>
+            <h3><a href="#">Top 10 Laptops of 2022</a></h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article class="article" id="article3">
+          <div class="article-image">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="" />
+          </div>
+          <div class="article-content">
+            <p class="article-number">03</p>
+            <h3><a href="#">The Growth of Gaming</a></h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>
